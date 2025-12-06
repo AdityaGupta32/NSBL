@@ -253,7 +253,7 @@ lucide.createIcons();
             };
 
             try {
-                await fetch('   https://superstylish-kristi-fluky.ngrok-free.dev', {
+                await fetch('   https://nsl-backend-g34r.onrender.com', {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify(payload)
@@ -275,4 +275,5 @@ lucide.createIcons();
         route(null, 'home');
         setInterval(fetchRates, 2000); // Live update
         fetchRates();
+
 
