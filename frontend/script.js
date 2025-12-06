@@ -143,7 +143,7 @@ lucide.createIcons();
         async function fetchRates() {
             try {
                 // Fetch from Backend
-                const res = await fetch('https://nsl-backend-g34r.onrender.com/api/get-rates');
+                const res = await fetch('https://nsl-backend-g34r.onrender.com');
                 const data = await res.json();
                 
                 if(data.gold_995) {
