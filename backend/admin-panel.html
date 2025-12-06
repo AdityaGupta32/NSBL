@@ -175,7 +175,7 @@
         async function fetchInquiries() {
             try {
                 const userData = JSON.parse(localStorage.getItem('adminUser'));
-                const res = await fetch('http://localhost:5000/api/inquiries', {
+                const res = await fetch('https://nsl-backend-g34r.onrender.com', {
                     headers: { 'Authorization': `Bearer ${userData.token}` }
                 });
                 const data = await res.json();
@@ -219,4 +219,5 @@
         setInterval(fetchInquiries, 15000);
     </script>
 </body>
+
 </html>
