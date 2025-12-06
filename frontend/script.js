@@ -143,7 +143,7 @@ lucide.createIcons();
         async function fetchRates() {
             try {
                 // Fetch from Backend
-                const res = await fetch('http://localhost:5000/api/rates');
+                const res = await fetch('https://nsl-backend-g34r.onrender.com');
                 const data = await res.json();
                 
                 if(data.gold_995) {
@@ -275,3 +275,4 @@ lucide.createIcons();
         route(null, 'home');
         setInterval(fetchRates, 2000); // Live update
         fetchRates();
+
