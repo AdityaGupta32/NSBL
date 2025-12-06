@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const MONGO_URI = "mongodb+srv://aditya:aditya123@nsbl2.f5wxidl.mongodb.net/nsbl2?appName=nsbl2&retryWrites=true&w=majority";
+const MONGO_URI = "mongodb+srv://aditya22:aditya123@nsbl2.f5wxidl.mongodb.net/nsbl2?appName=nsbl2&retryWrites=true&w=majority";
 connectDB = async () => {
     try {
       // We connect directly using the hardcoded string
@@ -11,4 +11,5 @@ connectDB = async () => {
     }
   };
   
+
   module.exports = connectDB;
