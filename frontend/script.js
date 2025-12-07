@@ -253,7 +253,7 @@ lucide.createIcons();
             };
 
             try {
-                await fetch('   https://nsl-backend-g34r.onrender.com/api/get-rates', {
+                await fetch('  https://nsl-backend-g34r.onrender.com/api/contact', {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify(payload)
@@ -275,6 +275,7 @@ lucide.createIcons();
         route(null, 'home');
         setInterval(fetchRates, 2000); // Live update
         fetchRates();
+
 
 
 
